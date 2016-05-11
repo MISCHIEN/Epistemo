@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  11 MAY 2016 20:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  11 MAY 2016 21:57
 entering extended mode
 **./resume_epistemo.tex
 (resume_epistemo.tex
@@ -1191,7 +1191,7 @@ LaTeX Info: Redefining \nameref on input line 47.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-<img/entete.PNG, id=54, 892.08281pt x 262.73157pt>
+<img/entete.PNG, id=58, 892.08281pt x 262.73157pt>
 File: img/entete.PNG Graphic file (type png)
  <use img/entete.PNG>
 Package pdftex.def Info: img/entete.PNG used on input line 50.
@@ -1210,13 +1210,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-<img/CC.jpg, id=66, 455.7025pt x 194.7275pt>
+<img/CC.jpg, id=70, 455.7025pt x 194.7275pt>
 File: img/CC.jpg Graphic file (type jpg)
  <use img/CC.jpg>
 Package pdftex.def Info: img/CC.jpg used on input line 87.
 (pdftex.def)             Requested size: 171.99922pt x 73.49803pt.
 
-<img/ulbback.jpg, id=67, 597.432pt x 845.0772pt>
+<img/ulbback.jpg, id=71, 597.432pt x 845.0772pt>
 File: img/ulbback.jpg Graphic file (type jpg)
  <use img/ulbback.jpg>
 Package pdftex.def Info: img/ulbback.jpg used on input line 88.
@@ -1252,27 +1252,20 @@ Chapitre 3.
 [7
 
 ] [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (resume_epistemo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
-
-
-Package rerunfilecheck Warning: File `resume_epistemo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume_epistemo.out':
-(rerunfilecheck)             Before: B573C5DF0186935A0BD37C47E6AC5633;897
-(rerunfilecheck)             After:  64E517FEE0C729ACAB26B1C5135A2E17;964.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package rerunfilecheck Info: File `resume_epistemo.out' has not changed.
+(rerunfilecheck)             Checksum: 64E517FEE0C729ACAB26B1C5135A2E17;964.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
- 18399 strings out of 493634
- 338282 string characters out of 3134016
+ 18400 strings out of 493634
+ 338295 string characters out of 3134016
  403780 words of memory out of 3000000
- 21402 multiletter control sequences out of 15000+200000
+ 21403 multiletter control sequences out of 15000+200000
  17745 words of font info for 42 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  62i,8n,56p,475b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1291,9 +1284,9 @@ X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\MISCHIEN\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><B:/Users/MIS
 CHIEN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb>
-Output written on resume_epistemo.pdf (10 pages, 1677228 bytes).
+Output written on resume_epistemo.pdf (10 pages, 1678874 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
+ 534 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
