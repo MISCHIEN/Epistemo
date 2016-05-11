@@ -1,0 +1,253 @@
+\documentclass{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{graphicx}
+\graphicspath{{img/}{./}}
+\usepackage{hyperref}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{geometry}
+
+\usepackage{array,multirow,makecell}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setcellgapes{4pt}
+\makegapedcells
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash }b{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash }b{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash }b{#1}}
+
+\usepackage[pages=some]{background}
+\backgroundsetup{
+	scale=1,
+	color=black,
+	opacity=0.1,
+	angle=0,
+	contents={%
+		\includegraphics[width=\paperwidth,height=\paperheight]{ulbback.jpg}
+	}%
+}
+
+
+\title{\Huge \textbf{\'{E}pistémologie des sciences et des techniques}\\
+	\Large TRAN-H-3001\\
+	Résumé du cours}
+
+\date{\today}
+
+\author{Mischa MASSON\\
+	Contributeurs:\\
+	nope
+	}
+
+
+
+\begin{document}
+	
+	\begin{figure}[t]
+		\includegraphics[width=15cm]{entete.PNG}
+	\end{figure}
+	
+	\maketitle
+	
+	\renewcommand{\abstractname}{\og Synthèses, Open Source et contributions\fg, Mischa Masson\\ Université Libre de Bruxelles\\2015-2016.}
+	
+	\BgThispage
+	
+	\begin{abstract}
+		Ce document est une synthèse du cours indiqué dans le titre. Le matériel présenté l'est donc dans le cadre de l'étude du cours et ne peut être repris sans l'accord du professeur concerné.
+		
+		Veuillez noter que ce document ne remplace en rien l'étude du support originel mais se veut un complément suivant une première étude.
+		
+		Ce document est ouvert à la modification. Pour ce faire, il vous faudra disposer d'un compte Github et suivre les règles suivantes:
+		\begin{itemize}
+			\item Les modifications d'orthographe/ syntaxe / grammaire, les corrections de coquilles et autres modifications mineures n'entrainant pas de changement de contenu sont autorisées directement.
+			\item Les ajouts de contenu manquant sont à me signaler (via facebook) afin que je puisse les relire et les valider (je suis ouvert et j'accepte d'avoir tord, n'ayez pas peur, le but est d'éviter un texte décousu).
+			\item Si vous ne savez pas comment modifier un git, consultez le readme ou contactez moi (via facebook).
+			\item Toute personne participant de manière significative au document (relecture complète, corrections/ajouts majeurs,...) sera citée dans les auteurs, merci de me signaler si vous préférez ne pas l'être.
+		\end{itemize}
+		
+		\textbf{Licence Creative Commons}
+		Le contenu de ce document est sous la licence Creative Commons :
+		Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+		4.0). Celle-ci vous autorise à l’exploiter pleinement, compte- tenu de trois
+		choses :
+		\begin{enumerate}
+			\item Attribution ; si vous utilisez/modifiez ce document vous devez signaler le(s) nom(s) de(s)
+		auteur(s).
+			\item Non Commercial ; interdiction de tirer un profit commercial de l’œuvre sans autorisation de l’auteur
+			\item Share alike ; partage de l’œuvre, avec obligation de rediffuser selon la même licence ou une licence similaire
+		\end{enumerate}
+		Si vous voulez en savoir plus sur cette licence :\\
+		\url{http://creativecommons.org/licenses/by-nc-sa/4.0/}\\
+		
+		\vspace{12pt}
+		\centering\includegraphics[width=.4\textwidth]{CC}
+	\end{abstract}
+	
+	\clearpage
+	
+	
+	\tableofcontents
+	
+	\chapter{Introduction}
+	
+	\section{Qu'est-ce que l'épistémologie?}
+	
+	Du grec "Episteme" et "logos", Connaissance et discours, langage, étude de...; l'épistémologie est donc "l'étude de la connaissance".
+	
+	On distingue l'anglais \emph{Epistemology}$\rightarrow$étude critique de la connaissance humaine; du francophone \emph{\'{E}pistémologie}$\rightarrow$ étude critique de la connaissance scientifique.
+	
+	\og L’épistémologie vise fondamentalement à caractériser les sciences en vue de juge de leur valeur (…) \fg	(Soler, 2009)\\
+	-Caractériser les sciences? Caractéristiques/critères de démarcation.\\
+	-Juger de leur valeur? Quand une théorie scientifique est-elle vraie? Vraie?\\
+	Ce sont des questions de philosophie des sciences.
+	
+	On définit 3 axes de l'épistémo:
+	\begin{itemize}
+		\item Définir la science.
+		\item Juger de la validité d'une théorie scientifique.
+		\item Constitution et évolution de la sciences, influences externes (histoire des sciences)
+	\end{itemize}
+	
+	Ce cours concerne l'épistémo des sciences \emph{et techniques}, on définira la nature du savoir technique, les conditions d'apparition et le rapport entre connaissances techniques et scientifiques.
+	
+	\section{Qu'est-ce que la science?}
+	
+	\og Ensemble de connaissances, d’études d’une valeur universelle, caractérisées par un objet et une méthode déterminés, et fondées sur des relations objectives vérifiables.\fg (Le Robert)
+	
+	Il faut définir ce qui est un objet, une méthode, des valeurs universelles, de relations objectives vérifiables,\dots
+	
+	La science serait donc descriptive et normative, nous y reviendrons.
+	
+	\section{Techniques et technologie}
+	
+	Une technique est un art, dérivé en savoir faire. Une technologie est un outil, un objet matériel. La limite est parfois confuse (technologie informatique, par exemple).\\
+	On étend technologie à la production des objets, c'est-à-dire leur conception, le prototypage, et la fabrication en soi.
+	
+	Science vs technique $\Rightarrow$ dicours vs action/activité
+	
+	Traditionnellement la science comprend le monde et le décrit, elle est neutre et un mauvais usage est imputable a l'utilisateur et non a la science en soi. La technologie répond a un objectif/but en utilisant la science. Cette conception est bouleversée par l'orientation des recherches scientifiques lors des guerres mondiales, par exemple.
+	
+	\chapter{La démarche scientifique et ses grands concepts}
+	
+	\section{Concept Aristotélicien}
+	
+	Attribué a Aristote( IVe s. ACN). Jusqu'à la renaissance (XV-XVIe PCN).
+	
+	Se base sur la logique, le raisonnement déductif, d'ou une importance du syllogisme (2 phrases "prémisses" sont combinées pour arriver à une conclusion via "le moyen terme" commun aux prémisses). Si les prémisses sont vrais, la conclusion aussi, Aristote utilise le syllogisme pour démontrer des vérités et faire progresser la science.
+	
+	C'est un enchaînement logique d'idées, pas d'expériences. Il est facile de trouver des syllogismes valides avec une conclusion fausse (Tous les cours sont chouettes. \'{E}pistémo est un cours. \'{E}pistémo est chouette. C'est faux\footnote{Exemple n'engageant aucunement l'avis personnel de l'auteur, cela va de soi.}.).
+	
+	\section{Aux fondements de la science moderne}
+	
+	2 penseurs:
+	
+	\paragraph{Francis Bacon}, avec l'induction. Bacon est Londonien (1561-1626). Il rejette la science des mots d'Aristote et sépare la science concernant les choses des mots en soi. Il accorde de l'importance à l'expérimentation et à la vérification, refuse l'argument d'autorité.
+	
+	Pour expliquer un phénomène, Aristote privilégie la cause finale càd pour quoi il a lieu\\
+	Pour Bacon: La cause mécanique, antérieure au résultat (explication à partir d’une séquence passée) permet de prédire et d’agir; science opératoire et non plus contemplative et verbale.
+	
+	\og Le savoir est pouvoir.\fg (1597)
+	
+	La science doit être inductive (dégager des généralités de l'observation du particulier), en opposition au déductif d'Aristote.
+	
+	\paragraph{René Descartes}, sa raison et sa méthode, un français (1596-1650). Les mathématiques peuvent décrire des phénomènes physiques. Il fondera la méthode scientifique et érige la raison en principe universel.
+	
+	Il commence par remettre en question tout savoir car rien n'est certain ("Cogito ergo sum", on est sur que de son existence toussa), c'est le Libre-Examen. Ne reste donc que la raison, qu'il explique comment utiliser dans son "discours de la méthode".
+	
+	4 règles:
+	\begin{enumerate}
+		\item rejeter l'évidence
+		\item analyser les parties
+		\item synthétiser
+		\item vérifier
+	\end{enumerate}
+	
+	Victoire de l'homme sur la nature par la méthode.
+	
+	\section{Révolution scientifique}
+	
+	XVI-XVIIe s. PCN.
+	\begin{enumerate}
+		\item Nicolas Copernic (Pologne, 1473-1543)
+		\item Tycho Brahé (Danemark, 1546-1601)
+		\item Johannes Kepler (Allemagne, 1571-1630)
+		\item Galilée (Italie, 1564-1642)
+		\item Isaac Newton (Angleterre, 1643-1727)
+	\end{enumerate}
+	
+	Aristote, conception géocentriste de l'univers (qui est par ailleurs fini). Présente des irrégularités inexplicables (mvt rétrogrades de planètes,...). Ptolémée (IIe s PCN) explique partiellement avec les épicycles, retour d'un système "stable". Ce système est cependant compliqué et imprécis.
+	
+	Copernic reprend le système d'Aristarque de Samos (retiens ce nom, padawan), héliocentrique. Le système plus simple lui parait plus plausible mais il doit le compliquer pour rendre compte d'imprécisions et reste incohérent car Copernic garde la cosmologie Aristotélicienne.
+	
+	Son système ne s'impose pas et est vu comme un outil ne reflétant pas la réalité mais lance le mouvement.
+	
+	Suit Tycho Brahé  qui refuse l'héliocentrisme mais propose un système solaire (planètes autour du soleil) dont le soleil tourne autour de la Terre. Il invente des outils et trouve des étoiles (incohérence du système d'Aristote qui ne change que sur Terre, l'espace est parfait).
+	
+	Ouvre la Voie a Johannes Kepler, qui décrit un héliocentrisme avec orbites elliptiques pour mieux décrire les mouvements des planètes. Reste des limites (comètes) et nécessite une nouvelle physique pour "marcher".
+	
+	Arrive Galilée. Il perfectionne la lunette et l'utilise pour plein de découvertes. Il rendra plausible le système de Copernic. Découvertes notables: satellites de planètes, phases de Vénus, cratères lunaires, astres lointains,\dots
+	
+	Ceci démontre l'importance de l'instrumentation et de l'observation; et dénote de l'importance de redéfinir la physique.
+	
+	Expérience du plan incliné, MRU $\Rightarrow$ fin de la physique d'Aristote.
+	
+	Galilée pratique l'expérimentation, l'induction, prédit les phénomène par les maths, passe du qualitatif au quantitatif\dots
+	
+	Mais l'église intervient et l'héliocentrisme est décrit comme modèle scientifique ne décrivant pas la réalité.
+	
+	Enfin, Newton. Synthétise les lois de Kepler, décrit la mécanique classique (gravitation, mouvement). Enfin un lien cohérent entre Kepler et Galilée, la crise initiée par Copernic trouve une fin dans la descritpion mathématique (versus l'interprétation auparavant). Causalité remplace hypothèses.
+	
+	\chapter{De l'observation à la théorie}
+	
+	\section{Observation et Expérimentation}
+	
+	\paragraph{Observation} $\rightarrow$ « passive ». Constat de phénomènes, pas d’intervention dans leur déroulement, mais sélection de ce que l’on observe!
+	\paragraph{Expérimentation} $\rightarrow$ active. Recours systématique et rigoureux à l’expérience. Expérience: modification des conditions d’un phénomène et création de situations artificielles (modifications de paramètres).
+	
+	Expérimenter suppose d'observer, pas l'inverse. (Noter qu'en anglais on sépare "experience" et "experiment", expérience ordinaire et expérience scientifique).
+	
+	Perspective empiriste: La connaissance ne se fonde que sur l’expérience dont on peut extraire des lois par induction. (Bacon, Newton, Galilée,\dots)
+	
+	Il est nécessaire pour expérimenter de produire des hypothèses (imagination de l'expérimentateur!) et/ou de constater une relation (objective) entre deux phénomènes.
+	
+	L'expérience et l'observation requiert des instruments de mesure, qui diffèrent de nos sens par leur approche quantitative et leur précision plus fine.
+	
+	Il y a donc une perception directe de données brutes ensuite interprétées via des énoncés théoriques, lesquels ont par ailleurs servi a concevoir les instruments. Les instruments de mesure sont des « théories matérialisées » (G. Bachelard). A noter: la précision des instruments disponibles limite celle des théories.
+	
+	Problèmes:
+	\begin{itemize}
+		\item Instruments et observations chargés de théorie
+		\item On ne peut appréhender que ce que notre cadre conceptuel théorique nous permet de concevoir
+		\item Biais d’observation (on ne trouve que ce que l’on cherche)
+	\end{itemize}
+	
+	\section{Qu'est-ce qu'un \og fait\fg scientifique?}
+	
+	\og Fait\fg vs phénomène
+	\paragraph{Phénomène} = ce qui apparaît.
+	\paragraph{Fait scientifique} = Ce qui « se produit » + Ce qui est énoncé + Ce sur quoi il y a consensus.
+	
+	\paragraph{Fait} = « (…) ce qui peut faire l’objet d’une entente intersubjective au terme d’une vérification, d’une mesure ou d’un contrôle expérimental » (Nadeau in Lecourt, 2003, p. 411)
+	
+	\section{Lois et principes}
+	
+	Loi induite à partir d’un grand nombre d’observations.\\
+	Structure logique d’une loi: Quel que soit x, si x est A, alors, x est B (Sagaut, 2008)
+	
+	La validité d'une loi est remise en question et mène a des généralisations (Boyle-Mariotte  => Gaz parfaits => Van der Waals). Valable pour les lois quantitatives.
+	
+	Pour les grands ensembles d'éléments, lois probabilistes.
+	
+	Une loi n'est donc pas définitive.
+	
+	Un principe est une loi très générale mais vague (1e loi de Newton= principe d'inertie).
+	
+	\section{Notion de modèle}
+	TODO
+	
+	
+\end{document}
