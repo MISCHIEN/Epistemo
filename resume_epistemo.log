@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  12 MAY 2016 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  12 MAY 2016 21:27
 entering extended mode
 **./resume_epistemo.tex
 (resume_epistemo.tex
@@ -1199,7 +1199,7 @@ LaTeX Info: Redefining \nameref on input line 49.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-<img/entete.PNG, id=98, 892.08281pt x 262.73157pt>
+<img/entete.PNG, id=178, 892.08281pt x 262.73157pt>
 File: img/entete.PNG Graphic file (type png)
  <use img/entete.PNG>
 Package pdftex.def Info: img/entete.PNG used on input line 52.
@@ -1218,13 +1218,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-<img/CC.jpg, id=110, 455.7025pt x 194.7275pt>
+<img/CC.jpg, id=190, 455.7025pt x 194.7275pt>
 File: img/CC.jpg Graphic file (type jpg)
  <use img/CC.jpg>
 Package pdftex.def Info: img/CC.jpg used on input line 89.
 (pdftex.def)             Requested size: 171.99922pt x 73.49803pt.
 
-<img/ulbback.jpg, id=111, 597.432pt x 845.0772pt>
+<img/ulbback.jpg, id=191, 597.432pt x 845.0772pt>
 File: img/ulbback.jpg Graphic file (type jpg)
  <use img/ulbback.jpg>
 Package pdftex.def Info: img/ulbback.jpg used on input line 90.
@@ -1235,35 +1235,35 @@ been already used, duplicate ignored
                    \relax 
 l.90 	\end{abstract}
                      [1 <./img/ulbback.jpg> <./img/CC.jpg>]
-(resume_epistemo.toc)
+(resume_epistemo.tocpdfTeX warning (ext4): destination with the same identifier
+ (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 ...\IeC {\`e}s scientifique}{18}{section.5.2}
+                                                   [1
+
+
+])
 \tf@toc=\write5
 \openout5 = `resume_epistemo.toc'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.97 	\chapter
-              {Introduction} [1
-
-
-]
+ [2]
 Chapitre 1.
-[2
+[3
 
-] [3]
+] [4]
 Chapitre 2.
-[4
+[5
 
-] [5] [6]
+] [6] [7]
 Chapitre 3.
-[7
+[8
 
-] [8]
+] [9]
 Chapitre 4.
-[9
+[10
 
-] [10]
+] [11]
 Underfull \hbox (badness 1430) in paragraph at lines 341--341
 []|\T1/cmr/m/n/10 Thèse qui af-firme  l'exis-tence [dans la réa-
  []
@@ -1278,24 +1278,76 @@ Overfull \hbox (25.19997pt too wide) in paragraph at lines 350--357
  [] 
  []
 
-[11] [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 373.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 373.
+[12]
+Underfull \hbox (badness 1014) in paragraph at lines 389--389
+\T1/cmr/m/n/10 les énon-cés qui com-portent
+ []
+
+
+Underfull \hbox (badness 2582) in paragraph at lines 389--390
+[]|\T1/cmr/m/n/10 pas de contenu em-pi-rique,
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 390--390
+[]|\T1/cmr/m/n/10 sont di-rec-te-ment vé-ri-fiables
+ []
+
+
+Underfull \hbox (badness 2894) in paragraph at lines 391--391
+\T1/cmr/m/n/10 va-tion dé-duits de l'énoncé
+ []
+
+[13] [14] [15]
+Overfull \hbox (6.06024pt too wide) in paragraph at lines 476--477
+\T1/cmr/m/n/10 sieurs hy-po-thèses $\OMS/cmsy/m/n/10 )$ \T1/cmr/m/n/10 im-pos-s
+ible de dé-ter-mi-ner TOUTES les pos-si-bi-li-tés (ex : lu-mière onde/corpuscul
+e) 
+ []
+
+[16]
+Chapitre 5.
+
+Overfull \hbox (7.68263pt too wide) in paragraph at lines 502--503
+ []\T1/cmr/bx/n/10 Notion d'obs-tacle épis-té-mo-lo-gique :[] \T1/cmr/m/n/10  
+ce qui (...) en-trave l'ac-cès à une connais-sance autre (So-
+ []
+
+[17
+
+] [18] [19]
+Chapitre 6.
+[20
+
+] [21]
+Annexe A.
+[22
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
  (resume_epistemo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 373.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 373.
-Package rerunfilecheck Info: File `resume_epistemo.out' has not changed.
-(rerunfilecheck)             Checksum: 57EFC9F7DC65338922A17FC0C36BD5CC;1803.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 373.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
+
+
+Package rerunfilecheck Warning: File `resume_epistemo.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume_epistemo.out':
+(rerunfilecheck)             Before: ADFAC2F80528FEA81F43E8129616C9C7;3406
+(rerunfilecheck)             After:  EBC811AE5B6707AA22C27A97C5E8D40A;3462.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 606.
  ) 
 Here is how much of TeX's memory you used:
- 18452 strings out of 493634
- 339144 string characters out of 3134016
- 406304 words of memory out of 3000000
- 21425 multiletter control sequences out of 15000+200000
+ 18518 strings out of 493634
+ 340010 string characters out of 3134016
+ 406322 words of memory out of 3000000
+ 21445 multiletter control sequences out of 15000+200000
  18521 words of font info for 43 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,9n,56p,475b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,56p,708b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ecbx1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\ecrm0800.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
@@ -1312,9 +1364,9 @@ a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\MI
 SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
 <B:/Users/MISCHIEN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb>
-Output written on resume_epistemo.pdf (14 pages, 1719856 bytes).
+Output written on resume_epistemo.pdf (24 pages, 1775499 bytes).
 PDF statistics:
- 676 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 888 PDF objects out of 1000 (max. 8388607)
+ 113 named destinations out of 1000 (max. 500000)
+ 372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
