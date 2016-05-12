@@ -13,6 +13,8 @@
 \usepackage{array,multirow,makecell}
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
+
+\usepackage{hhline}
 \setcellgapes{4pt}
 \makegapedcells
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash }b{#1}}
@@ -205,7 +207,7 @@
 	
 	\section{Observation et Expérimentation}
 	
-	\paragraph{Observation} $\rightarrow$ « passive ». Constat de phénomènes, pas d’intervention dans leur déroulement, mais sélection de ce que l’on observe!
+	\paragraph{Observation} $\rightarrow$ \og passive \fg. Constat de phénomènes, pas d’intervention dans leur déroulement, mais sélection de ce que l’on observe!
 	\paragraph{Expérimentation} $\rightarrow$ active. Recours systématique et rigoureux à l’expérience. Expérience: modification des conditions d’un phénomène et création de situations artificielles (modifications de paramètres).
 	
 	Expérimenter suppose d'observer, pas l'inverse. (Noter qu'en anglais on sépare "experience" et "experiment", expérience ordinaire et expérience scientifique).
@@ -216,7 +218,7 @@
 	
 	L'expérience et l'observation requiert des instruments de mesure, qui diffèrent de nos sens par leur approche quantitative et leur précision plus fine.
 	
-	Il y a donc une perception directe de données brutes ensuite interprétées via des énoncés théoriques, lesquels ont par ailleurs servi a concevoir les instruments. Les instruments de mesure sont des « théories matérialisées » (G. Bachelard). A noter: la précision des instruments disponibles limite celle des théories.
+	Il y a donc une perception directe de données brutes ensuite interprétées via des énoncés théoriques, lesquels ont par ailleurs servi a concevoir les instruments. Les instruments de mesure sont des \og théories matérialisées \fg (G. Bachelard). A noter: la précision des instruments disponibles limite celle des théories.
 	
 	Problèmes:
 	\begin{itemize}
@@ -229,9 +231,9 @@
 	
 	\og Fait\fg vs phénomène
 	\paragraph{Phénomène} = ce qui apparaît.
-	\paragraph{Fait scientifique} = Ce qui « se produit » + Ce qui est énoncé + Ce sur quoi il y a consensus.
+	\paragraph{Fait scientifique} = Ce qui \og se produit \fg + Ce qui est énoncé + Ce sur quoi il y a consensus.
 	
-	\paragraph{Fait} = « (…) ce qui peut faire l’objet d’une entente intersubjective au terme d’une vérification, d’une mesure ou d’un contrôle expérimental » (Nadeau in Lecourt, 2003, p. 411)
+	\paragraph{Fait} = \og (…) ce qui peut faire l’objet d’une entente intersubjective au terme d’une vérification, d’une mesure ou d’un contrôle expérimental \fg (Nadeau in Lecourt, 2003, p. 411)
 	
 	\section{Lois et principes}
 	
@@ -248,8 +250,8 @@
 	
 	\section{Notion de modèle}
 	
-	Un modèle est « un cadre représentatif, idéalisé et ouvert, reconnu approximatif et schématique mais jugé fécond par rapport à un but donné : prévoir, agir sur la nature, la connaître mieux, etc. » (Soler, 2009, p. 59)\\
-	Un modèle est donc une « représentation provisoire, dont l’accord avec les théories admises est imparfait (…) » (Barberousse, 2000, p. 288)
+	Un modèle est \og un cadre représentatif, idéalisé et ouvert, reconnu approximatif et schématique mais jugé fécond par rapport à un but donné : prévoir, agir sur la nature, la connaître mieux, etc. \fg ((système)Soler, 2009, p. 59)\\
+	Un modèle est donc une \og représentation provisoire, dont l’accord avec les théories admises est imparfait (…) \fg (Barberousse (le pirate), 2000, p. 288)
 	
 	Un modèle est une représentation simplifiée de la réalité, reprenant un nombre fini de caractéristiques jugées pertinentes par la discipline et en fonction de l'objectif. Les fonctions du modèles sont la compréhension, la prévision et l'heuristique (découverte). Les modèles sont plus faciles à utiliser que la théorie pour les problèmes complexes.
 	
@@ -258,6 +260,114 @@
 	Les modèles ont des avantages de coût, de réduction du danger, éthiques,...
 	
 	La qualité d'un modèle est fonction de son usage, de savoir s'il est adapté au problème. Un modèle reste un compromis.
+	
+	\section{Théories scientifiques}
+	
+	Une théorie scientifique désigne \og un système cohérent qui coordonne, relie et unifie des lois, des hypothèses, des principes et des modèles, les uns apparaissant comme complémentaires des autres \fg (Sagaut, 2008)
+	
+	Contrairement au modèle qui est plus ou moins simplifié/ajusté, une théorie sera vraie ou fausse. Une théorie non encore validée est une hypothèse (différent du sens d'hypothèse en mathématiques).
+	
+	Dans les chapitres suivants, retour sur le titre: rôle de l'observation et de l'expérience dans la constitution de théories.
+	
+	\chapter{La démarche scientifique et ses grands concepts}
+	
+	\section{L’explication scientifique}
+	
+	\emph{Ce chapitre est a lire, pas a connaître.}
+	
+	La science explique des phénomènes. Il existe plusieurs modèles d'explication.
+	
+	\subsection{L’explication nomologico-déductive (ND)}
+	
+	Déduction de phénomènes via des lois (nomos) et des faits particuliers.
+	
+	Utiliser des explanans pour expliquer l'explanandum.
+	
+	Problèmes:
+	\begin{enumerate}
+		\item Asymétrie des explications: Modèle ND inapte à rendre compte de l’asymétrie de nombreuses explications
+		\item Pertinence: Modèle ND n’impose pas la pertinence comme condition à l’explication scientifique
+		\item Nécessité de la référence à une loi Modèle ND impose la présence d’une loi, qui est une exigence trop forte		
+	\end{enumerate}
+	
+	\subsection{L’explication causale-mécaniste}
+	
+	L’explication doit fournir la cause d’un phénomène $\rightarrow$ Décrire le mécanisme qui produit le phénomène. L’explication causale répond davantage aux critères attendus d’une explication scientifique.
+	
+	Ce modèle ne s'oppose pas forcément au ND!
+	
+	\section{Valeur des théories scientifiques}
+
+	Au sens commun, la science dit \og vrai \fg lorsqu’elle adhère aux phénomènes observés $\rightarrow$ Les théories sc. sont \og objectives \fg{}.
+	
+	Encore faut-il déterminer ce qui est science et ce qui ne l'est pas, prouver le lien théorie-faits et savoir mettre à l'épreuve les théories.
+	
+	\subsection{La vérité}
+	
+	\paragraph{La vérité comme correspondance.} Vérité comme correspondance entre un énoncé (ou une théorie) et une réalité extralinguistique: Un énoncé est vrai s’il décrit fidèlement ce qui existe dans la réalité. Conception dominante en Occident depuis l’antiquité.\\
+	Critère empirique pour décider si un énoncé est vrai (V) ou faux (F)qui apporte un sentiment de certitude immédiate du à la correspondance entre perception et énoncé d’observation.
+	Ne constitue pas une preuve car 2 observateurs ne voient pas nécessairement la même chose $\rightarrow$ La perception ne \og prouve \fg pas, ne \og justifie \fg pas un énoncé d’observation.\\
+	Cet énoncé est-il arbitraire pour autant? Non! Il est \og motivé \fg par les perceptions (Karl Popper)\\
+	Conclusion: La vérité comme correspondance constitue un objectif à atteindre mais est notion peu opérante car pas de critère empirique permettant de décider du V ou du F d’un énoncé.
+	
+	\paragraph{La vérité comme consensus.} Un énoncé est vrai si les membres d’une communauté s’accordent à dire qu’il est vrai. Il est vrai parce qu’il y a consensus (et non pas parce qu’il y a correspondance avec la réalité dont découle ce consensus).\\
+	Avantage:  Critère empirique opératoire permettant de déterminer si un énoncé est V ou F : y a-t-il consensus ?\\
+	Problèmes: Dans la tradition occidentale, la vérité comme correspondance (= vérité absolue) reste l’objectif à atteindre, il est choquant de se dire que la vérité est juste ce sur quoi on est d’accord; car cette vérité est relative et pas infaillible (exemple: géocentrisme = consensus au Moyen Age)\\
+	Hypothèse: le consensus n’a pas lieu par hasard, mais est dû à des causes:
+	\begin{itemize}
+		\item Soit on suppose que le consensus est dû à de “bonnes raisons” (à cause d’une correspondance avec la réalité) $\rightarrow$ V consensus pas trop problématique.
+		\item Soit on envisage qu’il puisse être dû à de “mauvaises raisons” (idéologies, personnes charismatiques, …) $\rightarrow$ V consensus n’a plus rien d’absolu.
+	\end{itemize}
+	Cas d'idéologie sociale: l’affaire Lyssenko (1898-1976). En résumé: opposition a la science bourgeoise $\rightarrow$ pas de concurrence au sein de l'espèce $\rightarrow$ agriculture privilégiée à la recherche $\rightarrow$ exécutions de scientifiques $\rightarrow$ milieux scientifiques communistes occidentaux "contaminés" $\rightarrow$ bordel.\\
+	Exemple extrême de l’influence de l’idéologie sur la science.
+	
+	\paragraph{La vérité comme cohérence.} Un énoncé est vrai s’il s’intègre sans contradiction à un ensemble préalablement admis d’énoncés vrais. Satisfaisant dans les sciences formelles (mathématiques, logique)mais insuffisant dans les sciences empiriques: condition nécessaire mais pas suffisante car aucune référence à la réalité extralinguistique.
+	
+	\section[Lien théorie-objet]{Le problème du lien entre une théorie scientifique et son objet}
+	
+	\subsection{Le statut des entités inobservables?}
+	
+	Débat entre réalisme et instrumentalisme (=anti-réalisme) à propos des entités inobservables\\
+	Pour les entités observables, accord: elles existent et la science vise à les décrire le plus fidèlement possible.\\
+	Pour les entités inobservables:
+	\begin{description}
+		\item[Réalisme] elles existent réellement dans la réalité et la science essaie d’en fournir une description \og vraie \fg (la plus fidèle possible).
+		\item[Instrumentalisme] elles ne sont que des fictions introduites par les scientifiques pour prédire des phénomènes observables, mais elles n’existent pas nécessairement dans la réalité.
+	\end{description}
+	
+	\begin{center}
+		\begin{tabular}{|p{.5\textwidth}|p{.5\textwidth}|}
+			\hline \textbf{Réalisme} & \textbf{Instrumentalisme}\\
+			\hhline{|=|=|} Thèse qui affirme \og l’existence [dans la réalité] des entités postulée par les théories scientifiques.\fg  (Tiercelin in Lecourt, p. 802) & Thèse qui affirme que \og nos théories scientifiques ne sont que des moyens calculatoires permettant de prédire des observations \fg (Tiercelin, Ibidem) \\
+			\hline Lien: la science parle de choses qui existent dans la réalité extralinguistique. &  Lien : la science parle de choses qui n’ont pas nécessairement d’équivalent dans la réalité. \\
+			\hline L’objectif de la science est de fournir une description de la réalité la plus fidèle possible. & L’objectif de la science réside dans sa capacité à prédire des phénomènes. \\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	Notion de "vrai":
+	\begin{center}
+		\begin{tabular}{|p{.5\textwidth}|p{.5\textwidth}|}
+			\hline \textbf{Réalisme} & \textbf{Instrumentalisme}\\
+			\hhline{|=|=|} Une théorie est vraie si elle correspond (le plus possible) à la réalité & \og ‘vrai’ ne signifie rien de plus que ‘estimé suffisamment établi par une communauté compétente sur base de procédures spécifiables en l’état actuel des connaissances’ \fg (Soler, p. 146) \\
+			\hline Vérité comme correspondance (la valeur de vérité d’un énoncé = absolu) &  Vérité comme consensus (la valeur de vérité d’un énoncé = relative) \\
+			\hline Pas de critère empirique (car les perceptions altèrent la réalité), induction problématique. Pas d'accès direct à la réalité, arguments indirects (efficacité prédictive,\dots) & Critère empirique en cas de consensus. \\
+			\hline
+		\end{tabular}
+	\end{center}
+	
+	\subsection{Conflit Réalisme/Instrumentalisme}
+	
+	\paragraph{L’argument de la distinction observable/non-observable.} Est-il possible de tracer une frontière entre observable et non-observable? Si ce n’est pas le cas $\rightarrow$ Argument en faveur du réalisme.
+	
+	\paragraph{La sous-détermination de la théorie par l’expérience.} Deux théories différentes peuvent être empiriquement équivalentes et les expériences ne suffisent pas à fonder la théorie; donc la théorie précède l’expérience $\rightarrow$ Argument en faveur de l’instrumentalisme.
+	
+	\paragraph{L’argument du miracle.} Les théories scientifiques permettent de faire des prédictions et de concevoir des technologies “Parce qu’elles sont vraies!”. Si ce n’était pas le cas, ce serait un miracle qu’elles “marchent” si bien $\rightarrow$ Argument en faveur du réalisme. Attention, argument contestable car de nombreuses théories empiriquement efficaces se sont révélées fausses.
+	
+	\paragraph{L’argument de la corroboration.} Corroboration = confirmation. Argument fort en faveur du réalisme: entité inobservable révélée par différents modes de détection. Proche de l’argument du miracle (coïncidence si l’entité n’existait pas vraiment!). Fortement critiqué (en particulier par Berthelot) car ne correspond pas à la démarche newtonienne de la science: on est au-delà de l’expérience!
+	
+	Cet argument mène au débat équivalentistes/atomistes, victoire de ces derniers avec Jean Perrin qui calcule le nombre d'Avogadro (et corrobore l'hypothèse des atomes) d'une 12aine de manières différentes.
+	
 	
 	
 \end{document}
