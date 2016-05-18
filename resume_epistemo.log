@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  12 MAY 2016 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  18 MAY 2016 13:32
 entering extended mode
 **./resume_epistemo.tex
 (resume_epistemo.tex
@@ -1199,7 +1199,7 @@ LaTeX Info: Redefining \nameref on input line 49.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-<img/entete.PNG, id=178, 892.08281pt x 262.73157pt>
+<img/entete.PNG, id=230, 892.08281pt x 262.73157pt>
 File: img/entete.PNG Graphic file (type png)
  <use img/entete.PNG>
 Package pdftex.def Info: img/entete.PNG used on input line 52.
@@ -1218,13 +1218,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-<img/CC.jpg, id=190, 455.7025pt x 194.7275pt>
+<img/CC.jpg, id=242, 455.7025pt x 194.7275pt>
 File: img/CC.jpg Graphic file (type jpg)
  <use img/CC.jpg>
 Package pdftex.def Info: img/CC.jpg used on input line 89.
 (pdftex.def)             Requested size: 171.99922pt x 73.49803pt.
 
-<img/ulbback.jpg, id=191, 597.432pt x 845.0772pt>
+<img/ulbback.jpg, id=243, 597.432pt x 845.0772pt>
 File: img/ulbback.jpg Graphic file (type jpg)
  <use img/ulbback.jpg>
 Package pdftex.def Info: img/ulbback.jpg used on input line 90.
@@ -1321,52 +1321,83 @@ Chapitre 6.
 
 ] [21]
 Annexe A.
+
+Overfull \hbox (0.61137pt too wide) in paragraph at lines 606--606
+[]\T1/cmr/bx/n/14.4 Gaston \T1/cmr/bx/sc/14.4 Ba-che-lard\T1/cmr/bx/n/14.4 , \T
+1/cmr/bx/it/14.4 La for-ma-tion de l'es-prit scien-ti-fique\T1/cmr/bx/n/14.4 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
+
+ []
+
 [22
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 606.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 606.
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
+
+ []
+
+[23]
+Overfull \hbox (18.95142pt too wide) in paragraph at lines 659--659
+[]\T1/cmr/bx/n/14.4 Guillaume \T1/cmr/bx/sc/14.4 Le-cointre\T1/cmr/bx/n/14.4 , 
+\T1/cmr/bx/it/14.4 Bio-lo-gie, épis-té-mo-lo-gie. Des sciences
+ []
+
+[24] [25]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 671.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 671.
  (resume_epistemo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 606.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 606.
-
-
-Package rerunfilecheck Warning: File `resume_epistemo.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume_epistemo.out':
-(rerunfilecheck)             Before: ADFAC2F80528FEA81F43E8129616C9C7;3406
-(rerunfilecheck)             After:  EBC811AE5B6707AA22C27A97C5E8D40A;3462.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 606.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 671.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 671.
+Package rerunfilecheck Info: File `resume_epistemo.out' has not changed.
+(rerunfilecheck)             Checksum: F124B5504D0E821E2B30513372CC6804;4793.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 671.
  ) 
 Here is how much of TeX's memory you used:
- 18518 strings out of 493634
- 340010 string characters out of 3134016
- 406322 words of memory out of 3000000
- 21445 multiletter control sequences out of 15000+200000
- 18521 words of font info for 43 fonts, out of 3000000 for 9000
+ 18561 strings out of 493634
+ 340510 string characters out of 3134016
+ 406337 words of memory out of 3000000
+ 21462 multiletter control sequences out of 15000+200000
+ 21271 words of font info for 47 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,9n,56p,708b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,56p,876b,824s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\ecbx1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
-appen\ec\dpi600\ecrm0800.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\MISCHIEN\AppData\Local\MiKT
-eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\MISCHIEN\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\M
-ISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk
+00\ecti0800.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecbi1440.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecxc1440.pk> <C:\Users\MISCHIEN\AppData\Local\MiKT
+eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\MISCHIEN\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\M
+ISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk
 > <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ectt1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
-ppen\ec\dpi600\ecrm1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTe
-X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\MISCHIEN\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\MI
-SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk>
-<B:/Users/MISCHIEN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb>
-Output written on resume_epistemo.pdf (24 pages, 1775499 bytes).
+0\ecbx1440.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkna
+ppen\ec\dpi600\ecbx2074.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\MISCHIEN\AppDat
+a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\MI
+SCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk>
+ <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbx1000.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\ecrm1200.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX\2.9\fonts\pk
+\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\MISCHIEN\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><B:/Users/MISCHIEN/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><B:/Users/M
+ISCHIEN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><B:/Users/MISCHIEN/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><B:/Users/MISCHIEN/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb><B:/Users/MISCHIEN/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><B:/Users/MISCHIEN/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><B:/Users/MISCHIEN
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on resume_epistemo.pdf (27 pages, 1897746 bytes).
 PDF statistics:
- 888 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1165 PDF objects out of 1200 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 476 words of extra memory for PDF output out of 10000 (max. 10000000)
 
